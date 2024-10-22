@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weathersty.css">
+    
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather</h1>
+        <input type="text" id="search-box" placeholder="Search city">
+        <button onclick='getWeather()'  id="search-button" >Submit</button>
+        <section class="info-container">
+            <p class="cities" id="cities"></p>
+            <img id="weather-icon">
+            <h2 id="temperature"></h2>
+            <h2 id="weather-now"></h2>
+    <script src='./weathersty.js'></script>
+        </section>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div id="weather-forecast">
+           
+            <div id="forecast">
+                <img id="icon-one">
+                <p id="time-one"></p>
+                <p id="temp-one"></p>
+            </div>
+
+            <div id="forecast">
+                <img id="icon-two">
+                <p id="time-two"></p>
+                <p id="temp-two"></p>
+            </div>
+                
+            <div id="forecast">
+                <img id="icon-three">
+                <p id="time-three"></p>
+                <p id="temp-three"></p>
+            </div>
+                
+            <div id="forecast">
+                <img id="icon-four">
+                <p id="time-four"></p>
+                <p id="temp-four"></p>
+            </div>
+
+            <div id="forecast">
+                <img id="icon-five">
+                <p id="time-five"></p>
+                <p id="temp-five"></p>
+            </div>
+        </div>
+    </div>
+       
+    
+</body>
+</html>
